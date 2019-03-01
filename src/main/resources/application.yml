@@ -1,0 +1,9 @@
+server:
+  port: 4444
+spring:
+  application:
+    name: hello-service
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:3333/eureka
